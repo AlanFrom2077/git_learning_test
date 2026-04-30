@@ -1,0 +1,33 @@
+Notes 4/24/2026 Git
+
+Chapter 1. Git intro
+
+Git is a version control system that you download onto your computer that allows you to track the history of a project and collaborate with other people. 
+
+Two ways to use Git:
+	- GUI (Graphic User Interface)
+	- CLI (Command Line Interface)
+
+Command options and arguments
+	- Options: options are setting that change the behavior of a command
+	- Arguments: Arguments are values that provide information to the command
+
+		Ex.  git commit -m "<message>"
+			- git commit -> command
+			- -m -> option
+			- argument -> "<message>"
+
+command so far:
+	clear -> clear the previous command on CLI
+	pwd -> show the path to the current directory
+	ls -> list visible files and directories
+	ls -a -> list hidden and visible files and directories
+	cd <path_to_directory> -> pass in either the name of directory or path to the directory
+	cd .. -> pass in the parent directory of the current one
+	mkdir <directory_name> -> create a directory
+	git config --global --list -> list the variables in tyhe global Git configuration file and their values
+	git config --gloabl user.name "<name>" -> set your name in the global git configuration file
+	git config --global user.email "<email>" -> set your email address in the global git configuration file
+
+	
+
