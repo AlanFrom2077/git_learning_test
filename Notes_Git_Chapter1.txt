@@ -28,6 +28,6 @@ command so far:
 	git config --global --list -> list the variables in tyhe global Git configuration file and their values
 	git config --gloabl user.name "<name>" -> set your name in the global git configuration file
 	git config --global user.email "<email>" -> set your email address in the global git configuration file
-
+	git config --global init.defaultBranch "<branch_name>" -> set default branch name
 	
 

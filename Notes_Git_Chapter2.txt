@@ -1,0 +1,19 @@
+Notes 4/30/2026 Git
+
+Chapter 2. Local Repositories
+
+Repository:
+    - Local repository: local repository is a repository that is stored on a computer
+    - Remote repository: remote repositroy is a repository that is hosted on a hosting service
+
+Areas:
+    There are four important areas to be aware of when work with git
+        - Working directory: the working directory is where you make all the modifications to the content of project
+        - Staging areas
+        - Commit history
+        - Local repository
+
+Command so far:
+    git init -> to initialize a git repository
+    git init -b <branch_name> -> initialize a git repository and set the name for the initial branch to be <branch_name>
+
