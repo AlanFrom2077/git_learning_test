@@ -6,12 +6,20 @@ Repository:
     - Local repository: local repository is a repository that is stored on a computer
     - Remote repository: remote repositroy is a repository that is hosted on a hosting service
 
+Commit:
+    A commit in Git is basically one version of a project. 
+    Every commit has a commit hash(commit ID), Ex. 51dc6ecb327578cca503abba4a56e8c18f3835e1
+    In reality, user only need the first seven characters of a commit hash to refer a commit
+
 Areas:
     There are four important areas to be aware of when work with git
         - Working directory: the working directory is where you make all the modifications to the content of project
-        - Staging areas
-        - Commit history
-        - Local repository
+        - Staging area: - the Staging area is where you can add and remove files
+                        - represented by index directory inside the .git directory
+        - Commit history: - the commit history is where you can think of your commits existing
+                          - represented by objects directory inside the .git directory
+
+        - Loval repository
 
 Command so far:
     git init -> to initialize a git repository
