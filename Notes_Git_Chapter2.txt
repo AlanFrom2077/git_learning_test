@@ -21,6 +21,10 @@ Areas:
 
         - Local repository(.git): - the repository that stored on your computer
 
+the working process with git:
+    do modifications and saved            add files to the staging area                   add new commit to the project
+        working directory       ->    local repository(.git)/staging area      ->     local repository(.git)/commit history
+
 Command so far:
     git init -> to initialize a git repository
     git init -b <branch_name> -> initialize a git repository and set the name for the initial branch to be <branch_name> (-b means branch)
@@ -29,4 +33,4 @@ Command so far:
     git add <filename> <filename> ... -> Add multiple files to the stageing area
     git add -A -> Add all the files in the working directory that have been edited or changed to staging area (-A means All)
     git commit -m "<message>" -> Create a new commit with a commit message (-m means message)
-    
+    git log -> show a list of commits in reverse chronological order
