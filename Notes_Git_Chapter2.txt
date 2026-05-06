@@ -19,7 +19,7 @@ Areas:
         - Commit history: - the commit history is where you can think of your commits existing
                           - represented by objects directory inside the .git directory
 
-        - Loval repository
+        - Local repository(.git): - the repository that stored on your computer
 
 Command so far:
     git init -> to initialize a git repository
