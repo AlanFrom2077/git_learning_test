@@ -23,5 +23,10 @@ Areas:
 
 Command so far:
     git init -> to initialize a git repository
-    git init -b <branch_name> -> initialize a git repository and set the name for the initial branch to be <branch_name>
-
+    git init -b <branch_name> -> initialize a git repository and set the name for the initial branch to be <branch_name> (-b means branch)
+    git status -> show the state of the working directory and the staging area
+    git add <filename> -> Add one file to the staging area
+    git add <filename> <filename> ... -> Add multiple files to the stageing area
+    git add -A -> Add all the files in the working directory that have been edited or changed to staging area (-A means All)
+    git commit -m "<message>" -> Create a new commit with a commit message (-m means message)
+    
