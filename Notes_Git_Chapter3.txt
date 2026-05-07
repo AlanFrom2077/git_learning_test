@@ -7,4 +7,6 @@ Why use branches?
     - to help multiple people work on the same project at the same time 
 
 Unmodified and Modified files
+    - Unmodified files are files in the working directory that have not been edited since last commit
+    - Modified files are files that are edited
 
