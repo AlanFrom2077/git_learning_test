@@ -34,3 +34,4 @@ Command so far:
     git add -A -> Add all the files in the working directory that have been edited or changed to staging area (-A means All)
     git commit -m "<message>" -> Create a new commit with a commit message (-m means message)
     git log -> show a list of commits in reverse chronological order
+    

@@ -10,3 +10,6 @@ Unmodified and Modified files
     - Unmodified files are files in the working directory that have not been edited since last commit
     - Modified files are files that are edited
 
+Command so far:
+    git restore <filename> -> discard changes in working directory
+    
