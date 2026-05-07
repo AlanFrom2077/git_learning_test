@@ -2,5 +2,9 @@ Notes 5/6/2026 Git
 
 Chapter 3. branch
 
+Why use branches?
+    - to work on the same project in different ways
+    - to help multiple people work on the same project at the same time 
 
+Unmodified and Modified files
 
