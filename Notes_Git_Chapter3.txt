@@ -13,3 +13,4 @@ Unmodified and Modified files
 Command so far:
     git restore <filename> -> discard changes in working directory
     git cat-file -p
+    
